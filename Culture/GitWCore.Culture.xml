@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GitWCore.Culture</name>
+    </assembly>
+    <members>
+        <member name="T:GitWCore.Culture.CultureManager">
+            <summary>
+            Cette classe permet de mettre en place et de configurer un système de culture géré par l'URL de l'application. _
+            </summary>
+        </member>
+        <member name="M:GitWCore.Culture.CultureManager.Prepare(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.String[])">
+            <summary>
+            Configure le CultureManager avec les éléments fournis
+            </summary>
+            <param name="services">Collection de services d'injection de dépendances</param>
+            <param name="resourcesPath">Chemin vers le dossier de ressources</param>
+            <param name="defaultCulture">Culture par défaut de l'application</param>
+            <param name="supportedCultures">Liste non exhaustive des cultures supportées par l'application</param>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Builder.IApplicationBuilderExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Builder.IApplicationBuilderExtensions.UseCultureManager(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Utilise le paramétrage de la culture dans l'application
+            </summary>
+        </member>
+    </members>
+</doc>
