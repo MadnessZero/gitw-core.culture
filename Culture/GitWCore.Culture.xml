@@ -18,6 +18,24 @@
             <param name="defaultCulture">Culture par défaut de l'application</param>
             <param name="supportedCultures">Liste non exhaustive des cultures supportées par l'application</param>
         </member>
+        <member name="T:GitWCore.Culture.SharedCulture.TargetLocalizer`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:GitWCore.Culture.SharedCulture.TargetLocalizer`1.Item(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GitWCore.Culture.SharedCulture.TargetLocalizer`1.#ctor(Microsoft.Extensions.Localization.IStringLocalizerFactory)">
+            <summary>
+            
+            </summary>
+            <param name="factory"></param>
+        </member>
         <member name="T:Microsoft.AspNetCore.Builder.IApplicationBuilderExtensions">
             <summary>
             

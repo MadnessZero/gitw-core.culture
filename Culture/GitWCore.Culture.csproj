@@ -9,7 +9,7 @@
     <Product>GitWCore.Culture</Product>
     <Description>Ce package permet de mettre en place un système de culture basé sur l'url</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
